@@ -10,7 +10,6 @@ public class FindTheDifference389Test
     [Fact]
     public void TestFindTheDifference()
     {
-
         var result = new FindTheDifference389().FindTheDifference("aabcd", "aabcde");
 
         Assert.Equal('e', result);
