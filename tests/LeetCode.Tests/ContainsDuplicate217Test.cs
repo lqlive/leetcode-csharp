@@ -15,6 +15,5 @@ public class ContainsDuplicate217Test
         var result = new ContainsDuplicate217().ContainsDuplicate(nums);
 
         Assert.False(result);
-
     }
 }
