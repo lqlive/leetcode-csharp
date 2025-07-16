@@ -12,7 +12,7 @@ public class DecodeString394
         Stack<StringBuilder> stringStack = new Stack<StringBuilder>();
         Stack<int> countStack = new Stack<int>();
 
-        StringBuilder current=new StringBuilder();
+        StringBuilder current = new StringBuilder();
         int count = 0;
 
         foreach (var c in s)
